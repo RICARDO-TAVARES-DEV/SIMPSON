@@ -105,27 +105,39 @@ legend {
 @media (max-width:500px) {
 
     .mobile {
-      
+
         display: none;
     }
 
-.simpson{
-display: flex;
-justify-content: center;
-align-items: center;
+    .simpson {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-}
-figure{
-    display: flex;
-    justify-content: center;
-width: 100vw;
+    }
 
-}
+    figure {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
 
-figcaption{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    }
 
-}
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+
 }
