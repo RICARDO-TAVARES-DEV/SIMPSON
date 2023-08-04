@@ -1,173 +1,143 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    cursor: url("data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAACzXP8AAAAAAFSZxwD/rAUAEv8qAMyR/wAXk/8AJvH/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERESIiIREREREREREREREREiIiIiIiEREREREREREREQAAAiIiIiIRERERERERERAAAAAAIiIiIREREREREREQAFVVVgAiIiIRERERERERAFV3VWVQACIiIREREREREQBVVVVVVVACIiEREREREREFRVURFVU1ACIiERERERERBUVQEREVU1ACIhEREREREQVVVQEREVVVAiIhEREREREVVVUBERFVdQAiIRERERERFVNVUBERFXVQIiERERERERFTVVUBERVVUAIhERERERERVVVVUAEVVVUCIRERERERERVVZlVQVURVAhERERERERERVVVVVVVVVQIRERFBERERERVVVVU1VVUBERERRRERERERFVVVNVVVEREREVVRERERERERVVVRERERERFTNRERERERERERERERERERVVVREREREREREREREREREVVVVRERERERERERERERERFVZVVRERERERERERERERERVlVXVREREREREREREREREVVVV1VRERERERERERERERH/////////////////////////////////8H///4AP//8AA//+AAH//AAA//wAAH/4AAA/+AAAP/gAAB/4BgAf+AOAD/wDgA/8AcAP/gBAD/4AAA//AAAff4AAHz/AAD8f4AB/D/gA/wf/B/8D////Af///wD///8Af///AD///w=="),
+        auto;
 
-}
-
-body {
+    background-image: url(https://img.atlasobscura.com/FMv3ZKzH5Fsy8YpNsy0rc3EHiIjVnj0h10AKBQNaDt0/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy8yN2Y4OTU3MzQw/ZjAxYjQ2OGRfU3By/aW5nZmllbGRfcGFu/b3JhbWljLnBuZw.png);
+    /* background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position: center;
-    background-image: url(IMAGEM/the\ witcher\ hell.png);
-    background-repeat: no-repeat;
-
+    background-position: center; */
 }
 
-header {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+section {
     display: flex;
-    align-items: center;
-    height: 17vh;
-    justify-content: space-between;
-    margin-top: 50px;
 }
 
-div {
-    float: right;
+ul {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 5vh;
-    font-family: 'Montserrat', sans-serif;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    opacity: 1;
-
+    justify-content: space-around;
 }
 
+li {
+    display: flex;
+    background-color: blue;
+    /* */
+    color: rgb(88, 10, 190);
+    font-size: 20px;
+    text-align: center;
+}
 
 figure {
     display: flex;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-
-
-}
-
-
-.guerreiro {
-    width: 50vw;
-    height: 100vh;
-    justify-content: center;
-    background: transparent;
-    margin-top: 330px;
-}
-
-.marca {
-    width: 20vw;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 35vw;
+    height: 15vh;
     position: relative;
-    bottom: 320px;
-    background: transparent;
+    top: 20px;
 
 }
 
-.botao {
-    width: 20vw;
-    cursor: pointer;
-    justify-content: left;
-    margin-bottom: 20px;
+h1 {
+    font-family: "Redressed", cursiva;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 15px 15px 15px red;
+}
+
+figcaption {
+    font-size: 30px;
+    text-shadow: 4px 3px 3px rgb(10, 23, 212);
+    color: #ffffff;
+}
+
+
+
+form {
     position: relative;
-    bottom: 310px;
-    border-radius: 10px;
-
+    top: 70px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Redressed", cursiva;
+    color: #ffffff;
+    text-shadow: 4px 3px 3px rgb(10, 23, 212);
 }
 
-footer {
-    width: 100vw;
-    height: 53vh;
-    text-align: left;
-    font: normal normal 600 15px/19px Montserrat;
-    letter-spacing: 0.45px;
-    color: #eee7e7;
-    opacity: 1;
+p {
+    position: relative;
+    top: 10px;
+    font-family: 'Actor', sans-serif;
+    color: rgb(236, 234, 234);
+    font-size: 30px;
+    text-shadow: 4px 3px 3px rgb(10, 23, 212);
+    font-weight: 400;
 }
 
-
-h3 {
-    text-align: left;
-    padding-top: 300px;
-    padding-left: 8px;
-    color: black;
-}
-
-
-.links1 {
-    width: 40vw;
-    color: white;
+a {
+    cursor: url("data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAA////AArW/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIgAAAAAAAAAAAAAAAAACIgAAAAAAAAAAAAAAAAAAAgIiIiIgAAAAAAAAAAAAAAIiIiIiIAAAAAAAAAAAAAAiIiIiACAAAAAAAAAAAAAAIiIiIiIAAAAAAAAAAAAAACIAACAAAAAAAAAAAAAAAAAgEREBEQAAAAAAAAAAAAAAIBERAREAAAAAAAAAAAAAAiAREQERAAAAAAAAAAAAAAIgEQEBAQAAAAAAAAAAAAACIgAAIAAAAAAAAAAAAAAAAiIiIiIgAAAAAAAAAAAAAAIiIiIiIAAAAAAAAAAAAAACIiIiIiAAAAAAAAAAAAAAAiIiIiIAAAAAAAAAAAAAAAIiIiIiAAAAAAAAAAAAAAACAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/+D////AP///wAf//8AD//+AA///gAP//4AH//+AD///gAf//4AH//8AB///AAf//wAP//8AD///AA///wAP//8AD///AB///wAf//+qv/////////////////////////////////////////////////////////////////w=="),
+        auto;
+    text-shadow: 4px 3px 3px rgb(10, 23, 212);
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Lily Script One', cursive;
+    font-size: 30px;
     display: flex;
-    justify-content: space-around;
-    list-style: none;
-    cursor: url('data:image/x-icon;base64,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'), auto;
-}
-
-h2 {
-    width: 22vw;
-    letter-spacing: 0.7px;
 }
 
 
-@media(max-width: 500px) {
+fieldset {
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
 
 
-    body {
-        background-size: 100% 100%;
-        background-position: center;
-        background-image: url(IMAGEM/the\ witcher\ hell.png);
-        background-repeat: no-repeat;
+legend {
+
+    display: flex;
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: 4px 3px 3px rgb(10, 23, 212);
+}
+
+
+@media (max-width:500px) {
+
+    .mobile {
+
+        display: none;
     }
 
-
-
-    header {
+    .simpson {
         display: flex;
-        flex-direction: column;
-        padding-top: 30px;
-
-    }
-
-
-    header div {
-        padding-top: 100px;
-    }
-
-    .links1 {
-        display: flex;
-        justify-content: space-around;
-        width: 100vw;
-        height: 100vh;
-        padding-top: 60px;
-    }
-
-    .guerreiro {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        top: 200px;
         justify-content: center;
-        background: transparent;
+        align-items: center;
 
     }
 
-    .marca {
-        padding-top: 120px;
-    }
-
-
-    footer {
-        width: 100%;
-        height: 100%;
+    figure {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
 
     }
 
-    h3 {
-        text-align: left;
-        padding-bottom: 80px;
-        padding-left: 8px;
-        color: black;
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
 
 }
